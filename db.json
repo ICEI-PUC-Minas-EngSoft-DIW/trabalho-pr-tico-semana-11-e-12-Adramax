@@ -1,0 +1,63 @@
+{
+  "artistas": [
+    {
+      "id": 1,
+      "nome": "Vincent van Gogh",
+      "descricao": "Pintor pós-impressionista, conhecido por cores vibrantes e emoção intensa.",
+      "biografia": "Van Gogh produziu mais de 2.000 obras em apenas 10 anos, incluindo 'Os Girassóis' e 'Noite Estrelada'. Suas pinceladas expressivas e a força emocional marcaram a história da arte.",
+      "pais": "Holanda",
+      "destaque": true,
+      "imagem_principal": "img/artistas/vangogh.png",
+      "obras": [
+        {
+          "id": 1,
+          "titulo": "Noite Estrelada",
+          "descricao": "Ícone da história da arte, retrata o céu noturno de Saint-Rémy-de-Provence.",
+          "imagem": "img/obras/noiteestrelada.png"
+        },
+        {
+          "id": 2,
+          "titulo": "Os Girassóis",
+          "descricao": "Retratam girassóis em diferentes estágios de vida, usando pinceladas texturizadas e tons vibrantes de amarelo.",
+          "imagem": "img/obras/girassois.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Michelangelo Buonarotti",
+      "descricao": "Michelangelo foi um artista renascentista italiano, conhecido por sua genialidade como escultor, pintor e arquiteto.",
+      "biografia": "Michelangelo foi o segundo filho de Lodovico di Lionardo Buonarroti Simoni e Francesca di Neri Buonarroti. Produziu obras imortais como A Pietà e o teto da Capela Sistina.",
+      "pais": "República Florentina",
+      "destaque": true,
+      "imagem_principal": "img/artistas/michelangelo.jpg",
+      "obras": [
+        {
+          "id": 1,
+          "titulo": "A Criação de Adão",
+          "descricao": "Cena baseada no Livro do Gênesis, simbolizando a transmissão da vida e da alma.",
+          "imagem": "img/obras/HomemnotetodaCapelaSistina.jpg"
+        },
+        {
+          "id": 2,
+          "titulo": "A Pietà",
+          "descricao": "Escultura que representa a Virgem Maria com o corpo de Cristo em seu colo após a crucificação.",
+          "imagem": "img/obras/pieta.png"
+        }
+      ]
+    }
+  ],
+
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Thiago Sena",
+      "email": "thiago@email.com"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria@email.com"
+    }
+  ]
+}

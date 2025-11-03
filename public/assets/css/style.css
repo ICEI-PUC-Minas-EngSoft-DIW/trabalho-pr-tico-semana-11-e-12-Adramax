@@ -1,0 +1,135 @@
+/* ESTILO GERAL */
+:root {
+  --cor-principal: #77b1e7;
+  --cor-secundaria: #b39ddb;
+  --cor-escura: #2a148c;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+/*CABEÇALHO*/
+header {
+  background: linear-gradient(90deg, var(--cor-principal), var(--cor-escura));
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* CARROSSEL*/
+.carousel-item img {
+  height: 380px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* CARDS DE ARTISTAS*/
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/*BOTÕES*/
+.btn-primary {
+  background-color: var(--cor-principal);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--cor-escura);
+}
+
+/* DETALHES DO ARTISTA*/
+#conteudo-artista .card img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+#conteudo-artista h2 {
+  color: var(--cor-principal);
+}
+
+/*SEÇÃO SOBRE (SIMPLIFICADA)*/
+#sobre {
+  background: #fff;
+  border-top: 3px solid var(--cor-principal);
+  border-radius: 8px;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#sobre h3 {
+  color: var(--cor-escura);
+  margin-bottom: 1.5rem;
+}
+
+#sobre p {
+  color: #555;
+  max-width: 700px;
+  margin: 0.5rem auto;
+  line-height: 1.6;
+}
+
+/*RODAPÉ*/
+footer {
+  background: #eee;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .carousel-item img {
+    height: 240px;
+  }
+
+  #sobre {
+    padding: 1.5rem;
+  }
+}
