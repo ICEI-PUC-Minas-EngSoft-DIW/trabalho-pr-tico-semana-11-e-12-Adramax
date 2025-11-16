@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galeria de Arte</title>
 
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="/public/assets/css/style.css" />
 
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Script principal -->
-    <script src="js\app.js" defer></script>
+    <!-- CORRIGIDO: barra normal, não js\app.js -->
+    <script src="/public/assets/js/app.js" defer></script>
   </head>
 
   <body id="home" class="bg-light">
-    <!-- Cabeçalho -->
-    <header class="bg-dark text-white text-center py-4 mb-4 shadow">
+    <header>
       <h1>Galeria de Arte</h1>
       <p class="mb-0">Explore os maiores artistas e suas obras</p>
     </header>
 
-    <!-- Conteúdo principal -->
-    <main class="container">
+    <main class="container py-4">
+      <!-- BOTÃO ADICIONAR ARTISTA -->
+      <div class="d-flex justify-content-end mb-4">
+        <a href="form_artista.html" class="btn btn-primary">
+          Adicionar artista
+        </a>
+      </div>
+
       <!-- Seção 1: Artistas em Destaque -->
       <section class="mb-5">
         <h2 class="mb-3 text-center">Artistas em Destaque</h2>
@@ -57,7 +59,7 @@
         </div>
       </section>
 
-      <!--Seção 2: Lista de Artistas -->
+      <!-- Seção 2: Lista de Artistas -->
       <section class="mb-5">
         <h2 class="mb-3 text-center">Artistas</h2>
         <div class="row" id="lista-artistas"></div>
@@ -83,7 +85,10 @@
       </section>
     </main>
 
-    <!-- Bootstrap JS -->
+    <footer>
+      <p>Site desenvolvido por <strong>Orlando Ferreira</strong></p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
